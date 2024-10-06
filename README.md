@@ -1,4 +1,4 @@
-###I/O Redirection: Standard Output
+### I/O Redirection: Standard Output
 
 ---
 
@@ -18,7 +18,7 @@ You can mix “<“ and “>” together in a single line.
 
 ---
 
-###Pipelines “|”
+### Pipelines “|”
 
 ---
 
@@ -30,7 +30,7 @@ Press “q” key to exit the screen.
 
 ---
 
-###Expasion
+### Expasion
 
 ---
 
@@ -38,7 +38,7 @@ Special characters expand its meaning when given to shell commands.
 
 ---
 
-###Tip: Backslash
+### Tip: Backslash
 
 ---
 
@@ -54,7 +54,7 @@ Permissions
 Linux is a multi-user system
 Files and directories have a permission addignes differently to owner/ group/ others.
 
-###rwx rwx rwx
+### rwx rwx rwx
 
 File type: indicated regular filed indicates directory
 Read, write, and execute permissions for the file owner
@@ -63,7 +63,7 @@ Read, write, and execute permission for all other users.
 
 ---
 
-###Changing Permissions
+### Changing Permissions
 
 ---
 
@@ -91,7 +91,7 @@ Change the permission of a file “word.txt” that only the owner (you) can rea
 
 ---
 
-###Superuser
+### Superuser
 
 ---
 
@@ -105,7 +105,7 @@ Type “exit” to get out of a superuser session.
 
 ---
 
-###Text Editors
+### Text Editors
 
 ---
 
@@ -121,7 +121,7 @@ kwirte: kwrite is the "advanced editor" supplied with KDE. It has syntax highlig
 
 ---
 
-###Shell Script
+### Shell Script
 
 ---
 
@@ -141,7 +141,7 @@ Or, save it to a text file
 
 ---
 
-###wget
+### wget
 
 ---
 
@@ -149,7 +149,7 @@ wget: downloas files from the internet directly to your active directory
 
 ---
 
-###curl
+### curl
 
 ---
 
@@ -157,22 +157,22 @@ curl: fetching, uploading, and managing data over the internet curl [option] [UR
 
 ---
 
-###grep
+### grep
 
 ---
 
-####`grep` (Global Regular Expression Print) for searching text within files.
+#### `grep` (Global Regular Expression Print) for searching text within files.
 
-####grep "search_term" file.txt
+#### grep "search_term" file.txt
 Searches for the exact "search_term" within "file.txt" and prints matching lines.
 
-####**Common Options:**
+#### **Common Options:**
 `-i`: Case-insensitive search (finds "apple" and "Apple").
 `-v`: Invert the match (finds lines *not* containing the search term).
 `-n`: Display line numbers along with matching lines.
 `-r`: Recursive search (searches through all files in a directory and its subdirectories).
 
-####`grep` supports powerful regular expressions for more complex searches.
+#### `grep` supports powerful regular expressions for more complex searches.
 `.*`: Matches any character (`.`) zero or more times (`*`).
 `\d`: Matches any digit (0-9).
 `[abc]`: Matches any single character within the brackets.
